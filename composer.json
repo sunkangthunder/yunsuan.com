@@ -1,0 +1,25 @@
+{
+    "name": "vagrant/yun-suan",
+    "description": "移动统计运算系统",
+    "type": "project",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "classmap":[
+            "app/Kernel.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.1",
+        "catfan/medoo": "^1.5"
+    },
+    "authors": [
+        {
+            "name": "孙康",
+            "email": "sunkang@km.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
