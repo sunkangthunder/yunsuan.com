@@ -21,5 +21,11 @@
             "email": "sunkang@km.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
 }
